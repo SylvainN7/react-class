@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Cours du 12-02-2019
+(fork depuis https://github.com/feychenie/react-class)
+
+Container: connecté à l'extérieur
+Dumb: 
+HOC: High Order Component, décorateur de composant, prend en argument un <arg> + <comp> pour donner un nouveau composant
+FAAC: Function As A Child, type de décorateur
+RenderProps: 
+Un composant doit rendre un noeud (une seule <div>), du coup React a introduit le "fragment" dont le but est de pouvoir wrapper des éléments
+C'est un noeud virtuel. (idem le <router>)
+
 ## Available Scripts
 
 In the project directory, you can run:
