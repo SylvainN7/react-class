@@ -25,7 +25,8 @@ import "./app.css";
 import styles from "./app.module.css";
 class App extends Component {
   render() {
-    const { title } = this.props;
+    const { title, appClock } = this.props;
+    console.log(appClock)
     return (
       <Router>
         <Theme.Provider value={{ mainColor: "#333", altColor: "pink" }}>
@@ -37,7 +38,7 @@ class App extends Component {
 
             <Router> only accepts a single children, so we have to use a Fragment too 
           */}
-          <AppHeader title={title} />
+          <AppHeader title={title} appClock={appClock} />
           <div className={styles.main}>
             <main className={styles.mainInner}>
               <Routes />
@@ -49,7 +50,8 @@ class App extends Component {
   }
 }
 const mapStateToProps = state => ({
-  title: state.appTitle
+  title: state.appTitle,
+  appClock: state.appClock
 });
 
 const ConnectedApp = connect(mapStateToProps)(App);
