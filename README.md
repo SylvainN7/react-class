@@ -17,7 +17,7 @@ git fetch<br>
 git pull upstream master
 
 installer redux et react-redux avec npm <br>
-installer les add-ons ReactDevTools et ReduxDevTools sur le navigateur<br>
+installer les add-ons ReactDevTools et ReduxDevTools sur le navigateur
 
 ## Correction exo Hide CLock
 
