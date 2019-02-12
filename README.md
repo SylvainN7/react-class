@@ -20,6 +20,7 @@ installer redux et react-redux avec npm <br>
 installer les add-ons ReactDevTools et ReduxDevTools sur le navigateur<br>
 
 ## Correction exo Hide CLock
+
 1. event -> value
 2. methode dans mapDispatchToProps
 3. action & actionCreator
