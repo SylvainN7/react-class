@@ -8,12 +8,16 @@ Dumb: <br>
 HOC: High Order Component, décorateur de composant, prend en argument un <arg> + <comp> pour donner un nouveau composant<br>
 FAAC: Function As A Child, type de décorateur<br>
 RenderProps: <br>
-Un composant doit rendre un noeud (une seule "<div>"), du coup React a introduit le "fragment" dont le but est de pouvoir wrapper des éléments
-C'est un noeud virtuel. (idem le <router>)<br>
-Pour mettre à jour dpuis un fork<br>
+Un composant doit rendre un noeud (une seule "div"), du coup React a introduit le "fragment" dont le but est de pouvoir wrapper des éléments
+C'est un noeud virtuel. (idem le <router>)
+
+Pour mettre à jour dpuis un fork:<br>
 git add remote upstream <git_path><br>
 git fetch<br>
-git pull upstream master<br>
+git pull upstream master
+
+installer redux et react-redux avec npm <br>
+installer les add-ons ReactDevTools et ReduxDevTools sur le navigateur<br>
 
 ## Available Scripts
 
