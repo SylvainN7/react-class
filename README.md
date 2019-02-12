@@ -12,7 +12,7 @@ Un composant doit rendre un noeud (une seule "div"), du coup React a introduit l
 C'est un noeud virtuel. (idem le <router>)
 
 Pour mettre à jour dpuis un fork:<br>
-git add remote upstream <git_path><br>
+git remote add upstream <git_path><br>
 git fetch<br>
 git pull upstream master
 
