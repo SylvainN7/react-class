@@ -19,6 +19,14 @@ git pull upstream master
 installer redux et react-redux avec npm <br>
 installer les add-ons ReactDevTools et ReduxDevTools sur le navigateur<br>
 
+## Correction exo Hide CLock
+1. event -> value
+2. methode dans mapDispatchToProps
+3. action & actionCreator
+4. reducer -> transforme le state
+5. modifier l'initial state du store
+6. récupérer le state pour influencer l'affichage
+
 ## Available Scripts
 
 In the project directory, you can run:
