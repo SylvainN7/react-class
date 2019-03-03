@@ -1,33 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Cours du 12-02-2019
-(fork depuis https://github.com/feychenie/react-class)
-
-Container: connecté à l'extérieur<br>
-Dumb: <br>
-HOC: High Order Component, décorateur de composant, prend en argument un <arg> + <comp> pour donner un nouveau composant<br>
-FAAC: Function As A Child, type de décorateur<br>
-RenderProps: <br>
-Un composant doit rendre un noeud (une seule "div"), du coup React a introduit le "fragment" dont le but est de pouvoir wrapper des éléments
-C'est un noeud virtuel. (idem le <router>)
-
-Pour mettre à jour dpuis un fork:<br>
-git remote add upstream <git_path><br>
-git fetch<br>
-git pull upstream master
-
-installer redux et react-redux avec npm <br>
-installer les add-ons ReactDevTools et ReduxDevTools sur le navigateur
-
-## Correction exo Hide CLock
-
-1. event -> value
-2. methode dans mapDispatchToProps
-3. action & actionCreator
-4. reducer -> transforme le state
-5. modifier l'initial state du store
-6. récupérer le state pour influencer l'affichage
-
 ## Available Scripts
 
 In the project directory, you can run:
